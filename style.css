@@ -431,6 +431,7 @@ footer:hover p {
     }
 
     .about-content {
+        color: white
         flex-direction: column;
         text-align: center;
     }
