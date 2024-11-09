@@ -572,7 +572,7 @@ table {
     .section:hover {
         box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
-    .exp h3 p{
+    .exp li{
         color: white; /* Set text color to white for dark mode */
     }
     .exp:hover {
@@ -583,10 +583,7 @@ table {
         background-color: #2d2d2d; /* Optional: Change background for better contrast */
     }
 
-    .education-item {
-        background-color: #2d2d2d;
-        border-color: #404040;
-    }
+  
     .education-item:hover {
         box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
@@ -597,7 +594,7 @@ table {
         box-shadow: 0 6px 10px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
         color: black;
     }
-    .certification-item{
+    .certification-item h3 p{
         background-color: #2d2d2d;
         color: white;
     }
