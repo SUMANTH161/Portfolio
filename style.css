@@ -572,7 +572,11 @@ table {
     .section:hover {
         box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
-    .exp li{
+    .exp h3 {
+        color: white; /* Set text color to white for dark mode */
+    }
+
+    .exp p {
         color: white; /* Set text color to white for dark mode */
     }
     .exp:hover {
