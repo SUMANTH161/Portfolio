@@ -439,12 +439,10 @@ footer:hover p {
     }
 
     .profile-img {
-        width: 280px;
+        width: 220px;
         height: 120px;
     }
-    .about-text p {
-        color: white; /* Change about text color to white */
-    }
+    
 
     header h1 {
         font-size: 2rem;
@@ -458,9 +456,7 @@ footer:hover p {
     .skills-list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-    .education-item h3 p{
-        color: white;
-    }
+    
 }
 
 @media (max-width: 480px) {
