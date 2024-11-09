@@ -559,34 +559,34 @@ table {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212;
+        background-color: #80CBC4;
         color: #ffffff;
     }
     .about-text p {
-        color: white; /* Set text color to white for dark mode */
+        color: black; /* Set text color to white for dark mode */
     }
 
     .section {
-        background-color: #1e1e1e;
+        background-color: white;
     }
     .section:hover {
         box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
     
     .education-item   {
-        background-color: #1e1e1e; /* Optional: Change background for better contrast */
+        background-color: white; /* Optional: Change background for better contrast */
     }
     .education-item h3 {
-        color: whitesmoke; /* Set text color to white for dark mode */
+        color: black; /* Set text color to white for dark mode */
     }
     .education-item p  {
-        color: white; /* Set text color to white for dark mode */
+        color: black; /* Set text color to white for dark mode */
     }
 
     .education-item:hover {
         
         background-color: #80CBC4;
-        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+        box-shadow: 2px 6px 5px 2px black; /* Light box shadow on hover for dark mode */
     }
     .education-item:hover h3 {
         color: black;
@@ -600,32 +600,32 @@ table {
         color: white; /* Set text color to white for dark mode */
     }
     .project:hover {
-        box-shadow: 0 6px 10px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+        box-shadow: 2px 6px 5px 2px black; /* Light box shadow on hover for dark mode */
         color: black;
     }
     
     .certification-item{
-        background-color:#313030 ;
+        background-color:white ;
     }
     .certification-item h3 {
-        color: white;
+        color: black;
     }
     .certification-item p {
-        color: white;
+        color: black;
     }
 
     .certification-item:hover{
         background-color: #80CBC4;
-        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+        box-shadow: 2px 6px 5px 2px black; /* Light box shadow on hover for dark mode */
     }
     .certification-item:hover h3{
         color: black;
     }
     .exp h3{
-        color: white;
+        color: black;
     }
     .exp p{
-        color: white;
+        color: black;
     }
 }
 
