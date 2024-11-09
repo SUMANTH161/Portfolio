@@ -437,8 +437,8 @@ footer:hover p {
     }
 
     .profile-img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
 
     header h1 {
@@ -562,7 +562,7 @@ table {
         background-color: #121212;
         color: #ffffff;
     }
-    .about-text {
+    .about-text p {
         color: white; /* Set text color to white for dark mode */
     }
 
@@ -572,13 +572,13 @@ table {
     .section:hover {
         box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
-    .exp {
+    .exp h3 p{
         color: white; /* Set text color to white for dark mode */
     }
     .exp:hover {
         box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
-    .education-item {
+    .education-item h3 p {
         color: white; /* Set text color to white for dark mode */
         background-color: #2d2d2d; /* Optional: Change background for better contrast */
     }
@@ -595,6 +595,15 @@ table {
     }
     .project:hover {
         box-shadow: 0 6px 10px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+        color: black;
+    }
+    .certification-item{
+        background-color: #2d2d2d;
+        color: white;
+    }
+    .certification-item:hover{
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+
     }
 }
 
