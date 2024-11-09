@@ -436,9 +436,11 @@ footer:hover p {
     }
 
     .profile-img {
-        width: 120px;
+        width: 380px;
         height: 120px;
-        margin-bottom: 1rem;
+    }
+    .about-text p {
+        color: white; /* Change about text color to white */
     }
 
     header h1 {
