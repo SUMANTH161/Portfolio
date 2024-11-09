@@ -562,14 +562,39 @@ table {
         background-color: #121212;
         color: #ffffff;
     }
+    .about-text {
+        color: white; /* Set text color to white for dark mode */
+    }
 
     .section {
         background-color: #1e1e1e;
+    }
+    .section:hover {
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+    }
+    .exp {
+        color: white; /* Set text color to white for dark mode */
+    }
+    .exp:hover {
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+    }
+    .education-item {
+        color: white; /* Set text color to white for dark mode */
+        background-color: #2d2d2d; /* Optional: Change background for better contrast */
     }
 
     .education-item {
         background-color: #2d2d2d;
         border-color: #404040;
+    }
+    .education-item:hover {
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
+    }
+    .project p{
+        color: white; /* Set text color to white for dark mode */
+    }
+    .project:hover {
+        box-shadow: 0 6px 10px rgba(255, 255, 255, 0.5); /* Light box shadow on hover for dark mode */
     }
 }
 
