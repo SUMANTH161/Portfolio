@@ -429,20 +429,17 @@ footer:hover p {
     .section {
         padding: 1.5rem;
     }
-    .section h2 h3 p{
-        color: white;
-    }
 
     .about-content {
+        color: white;
         flex-direction: column;
         text-align: center;
     }
 
     .profile-img {
-        width: 220px;
+        width: 120px;
         height: 120px;
     }
-    
 
     header h1 {
         font-size: 2rem;
@@ -456,7 +453,6 @@ footer:hover p {
     .skills-list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-    
 }
 
 @media (max-width: 480px) {
@@ -594,3 +590,5 @@ table {
         font-size: 14px;
     }
 }
+
+
