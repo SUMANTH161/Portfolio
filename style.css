@@ -458,6 +458,9 @@ footer:hover p {
     .skills-list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+    .education-item h3 p{
+        color: white;
+    }
 }
 
 @media (max-width: 480px) {
