@@ -427,8 +427,10 @@ footer:hover p {
     }
 
     .section {
-        color: white;
         padding: 1.5rem;
+    }
+    .section h2 h3 p{
+        color: white;
     }
 
     .about-content {
@@ -437,7 +439,7 @@ footer:hover p {
     }
 
     .profile-img {
-        width: 380px;
+        width: 280px;
         height: 120px;
     }
     .about-text p {
