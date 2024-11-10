@@ -60,3 +60,18 @@ document.addEventListener('keydown', function(event) {
         document.body.classList.remove('nav-active'); // Remove nav-active class from body
     }
 });
+
+// Contact form handling
+document.getElementById('contactForm').onsubmit = function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Create a mailto link
+    const mailtoLink = `sumanthkotha2001@gmail.com?subject=Contact Form Submission&body=Name: ${encodeURIComponent(name)}%0D%0AEmail: ${encodeURIComponent(email)}%0D%0AMessage: ${encodeURIComponent(message)}`;
+
+    // Open the user's email client
+    window.location.href = mailtoLink;
+};
